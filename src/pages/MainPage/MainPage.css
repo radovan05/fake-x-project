@@ -1,0 +1,15 @@
+
+.wrapper-main-page { 
+    min-width: 85%;
+    max-width: 85%;
+    min-height: 50px;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+
+    background-color: black;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+  
+}

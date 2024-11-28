@@ -1,0 +1,24 @@
+.comment
+{
+    width: 100%;
+    background-color: rgb(44, 44,44);
+    border: 1px solid rgba(255, 255, 255, 0.282);
+}
+.comment-t{ 
+    margin-left: 10px;
+    margin-top: 10px;
+    color:black;
+}
+.comment-text{
+    margin-left: 25px;
+    margin-bottom: 15px;
+    margin-top: 10px; 
+}
+.comment-text-pp{
+    width: 80%;
+    margin-left: 10px;
+    margin-top: 10px;
+    color:white;
+    text-align: start;
+    font-size: x-large;
+}

@@ -1,0 +1,60 @@
+.login-form{ 
+
+    margin-top: 25px;
+    min-height: 70vh;
+    width: 70%;
+    background-color: black;
+    border-radius: 25px;
+    border: 2px dotted royalblue;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.login-form> .form { 
+    width: 100%;
+}
+.pw {
+    -webkit-text-security: disc;
+    text-security: disc;
+  }
+.login-form >.form> input { 
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+    width: 80%;
+    height: 25px;
+    margin-top:25px;
+    border-radius: 10px;
+    padding-left: 10px;    
+}
+.login-form > .title{
+    font-family: "title";
+    color:azure;
+    font-size: 60px;
+    height: 60px;
+    letter-spacing: 5px;
+}
+.login-form >button{ 
+    width: 60%;
+    height: 40px;
+    border-radius: 25px;
+    border: 2px solid royalblue;
+    background-color: rgb(44, 44, 44);
+    color: azure;
+    font-size: larger;
+}
+.login-form >p{ 
+    width: 80%;
+    height: 40px;
+    border-radius: 25px;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    color: azure;
+    font-size: medium;
+}

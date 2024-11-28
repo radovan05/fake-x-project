@@ -1,0 +1,45 @@
+.header { 
+    width: 100%;
+    min-height: 100px;
+    background-color: black;
+    color: azure;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header > p { 
+    font-family: "title";
+    font-size: xxx-large;
+
+}
+.profile-div-header{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-div{ 
+    width: 100%;
+    min-height: 60px;
+    background-color: black;
+    position: fixed;
+    bottom: 0%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-div > div > img { 
+    width: 30px;
+    height: 30px;
+}
+.profile-div-header > img{ 
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    
+}
+
+
+
+@font-face {
+    font-family: "title";
+    src: url("../../fonts/EngineBrakeDemoRegular.ttf");
+}

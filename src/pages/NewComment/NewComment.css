@@ -1,0 +1,38 @@
+.new-comment-form{
+    width: 65%;
+    min-height: 45vh;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+    justify-content: center;
+    align-content: flex-start;
+    gap: 15px;
+    margin-top: 25px;
+    border-radius: 25px;
+    border: 2px dotted royalblue;
+    
+}
+.comment-text-p{
+    width: 70%;
+    height: 70px;
+    text-align: start;
+    color: white;
+}
+.new-comment-text{
+    width: 80%;
+    height: 150px;
+    border-radius: 25px;
+    padding: 15px;
+    background-color: rgb(44,44,44);
+    color:white;
+    resize: none;
+}
+.submit-comment{
+    width: 50%;
+    height: 50px;
+    border: 2px dotted royalblue;
+    background-color: rgb(44,44,44);
+    color:white;
+    border-radius: 25px;
+}
